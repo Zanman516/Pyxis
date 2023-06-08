@@ -35,7 +35,7 @@ const rammerheadScopes = [
 
 const rammerheadSession = /^\/[a-z0-9]{32}/;
 
-console.log(`${chalk.cyan('Starting the server...')}\n`);
+console.log(`${chalk.cyan('Begging StartUp Phase!')}\n`);
 
 const app = express();
 
