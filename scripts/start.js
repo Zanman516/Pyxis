@@ -35,7 +35,7 @@ const rammerheadScopes = [
 
 const rammerheadSession = /^\/[a-z0-9]{32}/;
 
-console.log(`${chalk.cyan('Begging StartUp Phase!')}\n`);
+console.log(`${chalk.cyan('Beggining StartUp Phase!')}\n`);
 
 const app = express();
 
@@ -128,7 +128,7 @@ while (true) {
 		);
 
 		console.log(
-			`You can now view ${chalk.bold('website-aio')} in the browser.`
+			`You can now view ${chalk.bold('The Proxy')} in the browser.`
 		);
 
 		console.log('');
