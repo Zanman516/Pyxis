@@ -41,14 +41,14 @@ const app = express();
 
 app.use(
 	'/api/db',
-	proxy(`https://holyubofficial.net/`, {
+	proxy(`google.com`, {
 		proxyReqPathResolver: (req) => `/db/${req.url}`,
 	})
 );
 
 app.use(
 	'/cdn',
-	proxy(`https://holyubofficial.net/`, {
+	proxy(`google.com`, {
 		proxyReqPathResolver: (req) => `/cdn/${req.url}`,
 	})
 );
